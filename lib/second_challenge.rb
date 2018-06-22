@@ -16,18 +16,21 @@ def second_challenge
       },
       :hero_friends => [
          {
-           name: "Benvolio", 
-           age: "17", 
+           name: "Benvolio",
+           age: "17",
            attitude: "worried"
          },
          {
-           name: "Steven", 
-           age: "30", 
+           name: "Steven",
+           age: "30",
            attitude: "confused"}
       ]
    },
    :capulet => {
-      :patriarch => {name: "Lord Capulet", age: "50"},
+      :patriarch => {
+        name: "Lord Capulet", 
+        age: "50"
+      },
       :matriarch => {name: "Lady Capulet", age: "51"},
       :heroine => {name: "Juliet", age: "15", status: "alive"},
       :heroine_friends => [
